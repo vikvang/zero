@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/charmbracelet/catwalk/pkg/catwalk"
-	"github.com/charmbracelet/crush/internal/home"
+	"github.com/vikvang/zero/internal/home"
 )
 
 type ProviderClient interface {

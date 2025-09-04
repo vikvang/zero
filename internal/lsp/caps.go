@@ -1,6 +1,6 @@
 package lsp
 
-import "github.com/charmbracelet/crush/internal/lsp/protocol"
+import "github.com/vikvang/zero/internal/lsp/protocol"
 
 func (c *Client) setCapabilities(caps protocol.ServerCapabilities) {
 	c.capsMu.Lock()

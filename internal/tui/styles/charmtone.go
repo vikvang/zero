@@ -7,13 +7,14 @@ import (
 
 func NewCharmtoneTheme() *Theme {
 	t := &Theme{
-		Name:   "charmtone",
+		Name:   "zero",
 		IsDark: true,
 
-		Primary:   charmtone.Charple,
-		Secondary: charmtone.Dolly,
-		Tertiary:  charmtone.Bok,
-		Accent:    charmtone.Zest,
+		// Blue/Teal color scheme for Zero
+		Primary:   ParseHex("#0066CC"), // Primary blue
+		Secondary: ParseHex("#0099CC"), // Light blue
+		Tertiary:  ParseHex("#0088AA"), // Teal
+		Accent:    ParseHex("#00CCCC"), // Bright teal
 
 		// Backgrounds
 		BgBase:        charmtone.Pepper,
@@ -29,20 +30,20 @@ func NewCharmtoneTheme() *Theme {
 		FgSelected:  charmtone.Salt,
 
 		// Borders
-		Border:      charmtone.Charcoal,
-		BorderFocus: charmtone.Charple,
+		Border:      ParseHex("#334155"), // Slate gray
+		BorderFocus: ParseHex("#0066CC"), // Primary blue
 
 		// Status
-		Success: charmtone.Guac,
-		Error:   charmtone.Sriracha,
-		Warning: charmtone.Zest,
-		Info:    charmtone.Malibu,
+		Success: ParseHex("#00AA88"), // Teal green
+		Error:   ParseHex("#CC4400"), // Red-orange
+		Warning: ParseHex("#CCAA00"), // Golden yellow
+		Info:    ParseHex("#0099CC"), // Light blue
 
 		// Colors
 		White: charmtone.Butter,
 
-		BlueLight: charmtone.Sardine,
-		Blue:      charmtone.Malibu,
+		BlueLight: ParseHex("#66B3FF"), // Light blue
+		Blue:      ParseHex("#0066CC"), // Primary blue
 
 		Yellow: charmtone.Mustard,
 		Citron: charmtone.Citron,

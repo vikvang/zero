@@ -6,9 +6,9 @@ import (
 
 	"github.com/charmbracelet/catwalk/pkg/catwalk"
 
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/llm/tools"
-	"github.com/charmbracelet/crush/internal/message"
+	"github.com/vikvang/zero/internal/config"
+	"github.com/vikvang/zero/internal/llm/tools"
+	"github.com/vikvang/zero/internal/message"
 )
 
 type EventType string

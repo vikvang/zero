@@ -1,21 +1,21 @@
-# Crush
+# Zero
 
 <p align="center">
-    <a href="https://stuff.charm.sh/crush/charm-crush.png"><img width="450" alt="Charm Crush Logo" src="https://github.com/user-attachments/assets/adc1a6f4-b284-4603-836c-59038caa2e8b" /></a><br />
-    <a href="https://github.com/charmbracelet/crush/releases"><img src="https://img.shields.io/github/release/charmbracelet/crush" alt="Latest Release"></a>
-    <a href="https://github.com/charmbracelet/crush/actions"><img src="https://github.com/charmbracelet/crush/workflows/build/badge.svg" alt="Build Status"></a>
+    <a href="https://github.com/vikvang/zero"><img width="450" alt="Zero AI Terminal Assistant" src="https://via.placeholder.com/450x200/0066CC/FFFFFF?text=ZERO" /></a><br />
+    <a href="https://github.com/vikvang/zero/releases"><img src="https://img.shields.io/github/release/vikvang/zero" alt="Latest Release"></a>
+    <a href="https://github.com/vikvang/zero/actions"><img src="https://github.com/vikvang/zero/workflows/build/badge.svg" alt="Build Status"></a>
 </p>
 
-<p align="center">Your new coding bestie, now available in your favourite terminal.<br />Your tools, your code, and your workflows, wired into your LLM of choice.</p>
+<p align="center">Your AI-powered terminal assistant.<br />Built on a foundation of intelligent tools and seamless workflows.</p>
 
-<p align="center"><img width="800" alt="Crush Demo" src="https://github.com/user-attachments/assets/58280caf-851b-470a-b6f7-d5c4ea8a1968" /></p>
+<p align="center"><img width="800" alt="Zero Demo" src="https://via.placeholder.com/800x400/0066CC/FFFFFF?text=Zero+Demo" /></p>
 
 ## Features
 
 - **Multi-Model:** choose from a wide range of LLMs or add your own via OpenAI- or Anthropic-compatible APIs
 - **Flexible:** switch LLMs mid-session while preserving context
 - **Session-Based:** maintain multiple work sessions and contexts per project
-- **LSP-Enhanced:** Crush uses LSPs for additional context, just like you do
+- **LSP-Enhanced:** Zero uses LSPs for additional context, just like you do
 - **Extensible:** add capabilities via MCPs (`http`, `stdio`, and `sse`)
 - **Works Everywhere:** first-class support in every terminal on macOS, Linux, Windows (PowerShell and WSL), FreeBSD, OpenBSD, and NetBSD
 

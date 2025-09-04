@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 
 	tea "github.com/charmbracelet/bubbletea/v2"
-	"github.com/charmbracelet/crush/internal/app"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/db"
-	"github.com/charmbracelet/crush/internal/tui"
-	"github.com/charmbracelet/crush/internal/version"
+	"github.com/vikvang/zero/internal/app"
+	"github.com/vikvang/zero/internal/config"
+	"github.com/vikvang/zero/internal/db"
+	"github.com/vikvang/zero/internal/tui"
+	"github.com/vikvang/zero/internal/version"
 	"github.com/charmbracelet/fang"
 	"github.com/charmbracelet/x/term"
 	"github.com/spf13/cobra"
@@ -21,7 +21,7 @@ import (
 
 func init() {
 	rootCmd.PersistentFlags().StringP("cwd", "c", "", "Current working directory")
-	rootCmd.PersistentFlags().StringP("data-dir", "D", "", "Custom crush data directory")
+	rootCmd.PersistentFlags().StringP("data-dir", "D", "", "Custom zero data directory")
 	rootCmd.PersistentFlags().BoolP("debug", "d", false, "Debug")
 
 	rootCmd.Flags().BoolP("help", "h", false, "Help")
@@ -31,32 +31,32 @@ func init() {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "crush",
-	Short: "Terminal-based AI assistant for software development",
-	Long: `Crush is a powerful terminal-based AI assistant that helps with software development tasks.
+	Use:   "zero",
+	Short: "AI-powered terminal assistant for developers",
+	Long: `Zero is a powerful AI-powered terminal assistant that helps with software development tasks.
 It provides an interactive chat interface with AI capabilities, code analysis, and LSP integration
 to assist developers in writing, debugging, and understanding code directly from the terminal.`,
 	Example: `
 # Run in interactive mode
-crush
+zero
 
 # Run with debug logging
-crush -d
+zero -d
 
 # Run with debug logging in a specific directory
-crush -d -c /path/to/project
+zero -d -c /path/to/project
 
 # Run with custom data directory
-crush -D /path/to/custom/.crush
+zero -D /path/to/custom/.zero
 
 # Print version
-crush -v
+zero -v
 
 # Run a single non-interactive prompt
-crush run "Explain the use of context in Go"
+zero run "Explain the use of context in Go"
 
 # Run in dangerous mode (auto-accept all permissions)
-crush -y
+zero -y
   `,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		app, err := setupApp(cmd)

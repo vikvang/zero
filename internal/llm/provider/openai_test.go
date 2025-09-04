@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/charmbracelet/catwalk/pkg/catwalk"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/message"
+	"github.com/vikvang/zero/internal/config"
+	"github.com/vikvang/zero/internal/message"
 	"github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"
 )

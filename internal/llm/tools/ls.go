@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/charmbracelet/crush/internal/fsext"
-	"github.com/charmbracelet/crush/internal/permission"
+	"github.com/vikvang/zero/internal/fsext"
+	"github.com/vikvang/zero/internal/permission"
 )
 
 type LSParams struct {

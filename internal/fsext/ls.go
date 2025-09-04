@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/charlievieth/fastwalk"
-	"github.com/charmbracelet/crush/internal/csync"
-	"github.com/charmbracelet/crush/internal/home"
+	"github.com/vikvang/zero/internal/csync"
+	"github.com/vikvang/zero/internal/home"
 	ignore "github.com/sabhiram/go-gitignore"
 )
 

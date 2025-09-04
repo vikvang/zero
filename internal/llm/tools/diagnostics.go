@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/lsp/protocol"
+	"github.com/vikvang/zero/internal/lsp"
+	"github.com/vikvang/zero/internal/lsp/protocol"
 )
 
 type DiagnosticsParams struct {

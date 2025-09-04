@@ -20,7 +20,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/charmbracelet/crush/internal/slicesext"
+	"github.com/vikvang/zero/internal/slicesext"
 	"mvdan.cc/sh/moreinterp/coreutils"
 	"mvdan.cc/sh/v3/expand"
 	"mvdan.cc/sh/v3/interp"

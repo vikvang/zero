@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/charmbracelet/crush/internal/home"
+	"github.com/vikvang/zero/internal/home"
 )
 
 // SearchParent searches for a target file or directory starting from dir

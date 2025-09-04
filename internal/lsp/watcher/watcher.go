@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/bmatcuk/doublestar/v4"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/csync"
+	"github.com/vikvang/zero/internal/config"
+	"github.com/vikvang/zero/internal/csync"
 
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/lsp/protocol"
+	"github.com/vikvang/zero/internal/lsp"
+	"github.com/vikvang/zero/internal/lsp/protocol"
 	"github.com/fsnotify/fsnotify"
 )
 

@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"log/slog"
 
-	"github.com/charmbracelet/crush/internal/config"
+	"github.com/vikvang/zero/internal/config"
 
-	"github.com/charmbracelet/crush/internal/lsp/protocol"
-	"github.com/charmbracelet/crush/internal/lsp/util"
+	"github.com/vikvang/zero/internal/lsp/protocol"
+	"github.com/vikvang/zero/internal/lsp/util"
 )
 
 // Requests

@@ -1,4 +1,4 @@
-module github.com/charmbracelet/crush
+module github.com/vikvang/zero
 
 go 1.25.0
 

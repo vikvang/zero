@@ -5,10 +5,10 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/log"
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/lsp/watcher"
+	"github.com/vikvang/zero/internal/config"
+	"github.com/vikvang/zero/internal/log"
+	"github.com/vikvang/zero/internal/lsp"
+	"github.com/vikvang/zero/internal/lsp/watcher"
 )
 
 // initLSPClients initializes LSP clients.

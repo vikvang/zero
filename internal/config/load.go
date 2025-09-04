@@ -13,11 +13,11 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/catwalk/pkg/catwalk"
-	"github.com/charmbracelet/crush/internal/csync"
-	"github.com/charmbracelet/crush/internal/env"
-	"github.com/charmbracelet/crush/internal/fsext"
-	"github.com/charmbracelet/crush/internal/home"
-	"github.com/charmbracelet/crush/internal/log"
+	"github.com/vikvang/zero/internal/csync"
+	"github.com/vikvang/zero/internal/env"
+	"github.com/vikvang/zero/internal/fsext"
+	"github.com/vikvang/zero/internal/home"
+	"github.com/vikvang/zero/internal/log"
 )
 
 const defaultCatwalkURL = "https://catwalk.charm.sh"

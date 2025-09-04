@@ -11,19 +11,19 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea/v2"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/csync"
-	"github.com/charmbracelet/crush/internal/db"
-	"github.com/charmbracelet/crush/internal/format"
-	"github.com/charmbracelet/crush/internal/history"
-	"github.com/charmbracelet/crush/internal/llm/agent"
-	"github.com/charmbracelet/crush/internal/log"
-	"github.com/charmbracelet/crush/internal/pubsub"
+	"github.com/vikvang/zero/internal/config"
+	"github.com/vikvang/zero/internal/csync"
+	"github.com/vikvang/zero/internal/db"
+	"github.com/vikvang/zero/internal/format"
+	"github.com/vikvang/zero/internal/history"
+	"github.com/vikvang/zero/internal/llm/agent"
+	"github.com/vikvang/zero/internal/log"
+	"github.com/vikvang/zero/internal/pubsub"
 
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/message"
-	"github.com/charmbracelet/crush/internal/permission"
-	"github.com/charmbracelet/crush/internal/session"
+	"github.com/vikvang/zero/internal/lsp"
+	"github.com/vikvang/zero/internal/message"
+	"github.com/vikvang/zero/internal/permission"
+	"github.com/vikvang/zero/internal/session"
 )
 
 type App struct {
